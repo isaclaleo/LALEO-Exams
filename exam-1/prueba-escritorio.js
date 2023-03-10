@@ -14,7 +14,7 @@ function fibo5(n) {
   for (let i = 2; i <= n; i ++){
     // el let i = 2 is mi variable incial para donde se inicializa mi loop, entonces mi i <= n es donde va a llegar n hasta que alcance el valor n y i ++ es donde se va actualizar mi varialble incial del lopp 
     console.log("i",i)
-    // se utiliza el metodo push donde se añade un nuevo valore dentro  mis valores inciales para poder iteral mis valores solicitados de mi loop don estoy guardando mis valores inciales y se estan sumando los dos valores iniciales y al mismo tiempo esta restando mi i de mi loop para asi llegar has el numero incial y cuando llega se actualza mi numero incial n + el resultado de la suma de mis valores iniciales
+    // se utiliza el metodo push donde se añade un nuevo valore dentro  mis valores inciales para poder iteral mis valores solicitados de mi loop donde estoy guardando mis valores inciales y se estan sumando los dos valores iniciales y al mismo tiempo esta restando mi i de mi loop para asi llegar hasta el numero incial y cuando llega se actualiza mi numero incial n + el resultado de la suma de mis valores iniciales
     initialValues.push(initialValues[i-1] + initialValues[i-2])
 
   }
